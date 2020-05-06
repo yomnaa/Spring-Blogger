@@ -3,7 +3,7 @@ package com.selfprojects.SpringBlogger.Model;
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
 import java.time.Instant;
-@Entity
+@Entity (name="\"User\"")
 public class User {
     public Long getId() {
         return Id;
